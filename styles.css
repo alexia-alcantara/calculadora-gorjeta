@@ -1,14 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT++Mono);
 :root {
-    --primary-color: lightcoral;
-    --secondary-color: DimGrey;
+    --primary-color: #45d815;
+    --secondary-color: #fbff00e0;
     --tertiary-color: Gainsboro;
 }
 
 
 
 body {
-    background-color: var(--primary-color);
+    background-color: #f69d50;
     font-size: 15px;
     font-family: Lato, sans-serif;
 }
@@ -23,7 +23,7 @@ body {
 }
 
 .title{
-    background: var(--tertiary-color);
+    background: #fe8b39;
     color: var(--secondary-color);
 
     padding: 20px;
@@ -60,12 +60,17 @@ body {
     font-size: 12px;
 }
 
+.formSelect:focus {
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
 .formSubmit{
     text-transform: uppercase;
     font-weight: bold;
     display: block;
     margin: 30px auto;
-    background: var(--primary-color);
+    background: rgb(82 241 30 / 76%);
 
     border-radius: 5px;
     width: 200px;
